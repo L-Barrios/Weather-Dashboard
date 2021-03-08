@@ -1,3 +1,61 @@
-.header{
-    
+.title {
+    color: aliceblue;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+a {
+    color: aliceblue;
+}
+.card {
+    padding: 15px;
+
+}
+
+.button {
+    vertical-align: none;
+    background-color: thistle;
+
+}
+
+input {
+    border:3px thick thistle;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    vertical-align: middle;
+    border-color:white;
+}
+
+.weather-list {
+    font-size: larger;
+    padding: 5px;
+}
+
+.weather-disp {
+    padding: .5em
+
+}
+
+
+
+.forecast {
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+}
+
+.good {
+    background-color: green;
+
+}
+
+.moderate {
+    background-color: yellow;
+}
+
+.bad { 
+    background-color: red;
 }

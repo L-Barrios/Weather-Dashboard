@@ -4,25 +4,25 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Links-->
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <link rel= "stylesheet" href="">
+    
+    <link rel= "stylesheet" href="./assets/style.css">
     <!--Title of Website-->
     <title>Weather Dashboard</title>
 
 </head>
 <body>
+    <!--Header-->
     <header class="header"> 
         <h1 class="title">
             <p> <span>☀️</span> Weather Dashboard <span>☀️</span> </p>
         </h1>
     </header>
 
-<!-- Grid -->
 
+<!-- Search City and Save-->
 <div class ="container">
     <div class = "row">
-        <div class = "col-md-9 col-lg-3" id = "history">
+        <div class = "col-md-12 col-lg-3" id = "history">
             <div class = "cardRow" style="width: auto;">
             <div> <h3 class = "cardTitle"> Enter City</h3> 
             <input id = "name-of-city" type = "text" placeholder = "Enter city name">
@@ -33,18 +33,172 @@
         
             </div>
             </div>
-
+        <!--Search History-->        
         <div class = "cardRow" id = "cityHistory" style="width: auto;">
                 <ul id = "cityUl"></ul>
         </div>
         </div>
-
-    <div class = "row">
+    
+    <!--Current Day Weather Forecast -->
+    <div class = "col-md-12 col-lg-3 card weather-disp" id = "weather-disp">
         
+        <div class = "row">
+            <div class = "col">
+            <div id = "search-city" class = "row">
+                <h3> City Name/Date</h3>
+            </div>
+            
+            <div class = " row weather-list" id = "temp">Temperature 
+            </div>
+            
+
+            <div class = "row weather-list" id = "current">Currently
+            </div>
+
+            <div class = "row weather-list" id = "wind">Wind Speed
+            </div>
+
+            <div class = "row weather-list" id = "humid">Humidity
+            </div>
+
+            <div class = "row weather-list" id = "uv">Uv Index
+            </div>
+
+            </div>
+        
+        </div>
     </div>
+    <!--Current Weather Forecast Ends -->
+
+
+    <!--Five Day Forecast-->
+    <div class = "row">
+        <div class = "col">
+            <div class = "row">
+                <h3> 5 Day Forecast</h3>
+            </div>
+        <!--Next day Info -->
+            <div class = "col-md-12 col-xl-2 card forecast" id = "next-day">
+
+                <div id = "search-city" class = "row"><h5>Tomorrow </h5>
+                </div>
+
+                <div class = "row" id = "1Temp">Temperature
+                </div>
+
+                <div class = "row" id = "1Current">Currently
+                </div>
+
+                <div class = "row" id = "1Wind">Wind Speed
+                </div>
+
+                <div class = "row" id = "1Humid">Humidity
+                </div>
+
+                <div class = "row" id = "1Uv">Uv Index
+                </div>
+            </div> 
+        </div>
+         <!--Next day Info ends-->   
+
+         <!--Second day info-->
+            <div class = "col-md-12 col-xl-2 card forecast" id = "second-day">
+                <div id = "second-day" class = "row">
+                </div>
+                
+                <div class = "row" id = "2Temp">Temperature
+                </div>
+
+                <div class = "row" id = "2Current">Currently
+                </div>
+
+                <div class = "row" id = "2Wind">Wind Speed
+                </div>
+
+                <div class = "row" id = "2Humid">Humidity
+                </div>
+
+                <div class = "row" id = "2Uv">Uv Index
+                </div>
+
+            </div>
+         <!--Second Day info ends-->   
+
+         <!-- Third Day info-->
+         <div class = "col-md-12 col-xl-2 card forecast" id = "third-day">
+            <div id = "thrid-day" class = "row">
+             </div>   
+
+            <div class = "row" id = "3Temp">Temperature
+            </div>
+
+            <div class = "row" id = "3Current">Currently
+            </div>
+
+            <div class = "row" id = "3Wind">Wind Speed
+            </div>
+
+            <div class = "row" id = "3Humid">Humidity
+            </div>
+
+            <div class = "row" id = "3Uv">Uv Index
+            </div>
+        </div>
+        <!--Third Day info ends-->
+
+        <!--Fourth Day Info-->
+        <div class = "col-md-12 col-xl-2 card forecast" id = "fourth-day">
+            <div id = "fourth-day" class = "row">
+            </div>   
+
+           <div class = "row" id = "4Temp">Temperature
+           </div>
+
+           <div class = "row" id = "4Current">Currently
+           </div>
+
+           <div class = "row" id = "4Wind">Wind Speed
+           </div>
+
+           <div class = "row" id = "4Humid">Humidity
+           </div>
+
+           <div class = "row" id = "4Uv">Uv Index
+           </div>
+        </div>
+        <!--Fourth Day Info ends-->
+
+        <!--Fifth Day Info-->
+        <div class = "col-md-12 col-xl-2 card forecast" id = "fifth-day">
+            <div id = "fifth-day" class = "row">
+            </div>   
+
+           <div class = "row" id = "5Temp">Temperature
+           </div>
+
+           <div class = "row" id = "5Current">Currently
+           </div>
+
+           <div class = "row" id = "5Wind">Wind Speed
+           </div>
+
+           <div class = "row" id = "5Humid">Humidity
+           </div>
+
+           <div class = "row" id = "5Uv">Uv Index
+           </div>
+        </div>
+        <!--Fifth Day Info Ends-->
+
+
+    
+    </div>
+    <!--Five Day Forecast Ends-->
+
     </div>
 </div>
+<!--Search City Ends -->
 
-
+<script src = "assets/script.js"></script>
 </body>
 </html>
