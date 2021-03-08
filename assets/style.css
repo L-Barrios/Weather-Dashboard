@@ -13,7 +13,11 @@ a {
     padding: 15px;
 
 }
-
+.forecast {
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+}
 .button {
     vertical-align: none;
     background-color: thistle;
@@ -39,13 +43,6 @@ input {
 
 }
 
-
-
-.forecast {
-    background-color: white;
-    padding: 40px;
-    margin: 10px;
-}
 
 .good {
     background-color: green;
