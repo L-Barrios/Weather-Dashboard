@@ -1,6 +1,10 @@
+header {
+    text-align: center;
+}
+
 .title {
     color: aliceblue;
-    background-color: white;
+    background-color: blue;
     text-align: center;
     font-weight: bolder;
 
@@ -19,7 +23,7 @@ a {
     margin: 10px;
 }
 .button {
-    vertical-align: none;
+    vertical-align: middle;
     background-color: thistle;
 
 }
