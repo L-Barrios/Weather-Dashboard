@@ -7,7 +7,7 @@ The user is able to enter a city and will be displayed the weather of specified 
 
 I dont know why the css is not appearing. 
 
-![Screen Shot] (/assets/img/weather.png)
+![Screen Shot] (/assets/img/weather.jpg)
 
 
 ```
